@@ -9,7 +9,7 @@ const metadata: Metadata = {
   site: {
     title: 'Clovis Lechien',
     description: 'Portfolio of Clovis Lechien.',
-    url: 'https://www.google.com/',
+    url: 'https://www.google.com/', // TODO: remplacer par https://clovinux.fr une fois le domaine acheté.
     keywords: [
       'AI',
       'ML',
