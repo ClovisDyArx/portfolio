@@ -3,7 +3,7 @@ import React from 'react';
 import { buttonVariants } from '@/components/ui/button';
 import MotionWrap from '@/components/motion-wrap';
 
-import ContactForm from './contact-form';
+// import ContactForm from './contact-form';
 
 import { contact } from '@/components/sections/contact/config';
 
