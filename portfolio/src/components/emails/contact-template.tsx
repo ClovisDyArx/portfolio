@@ -1,8 +1,6 @@
 import {
   Body,
-  Button,
   Container,
-  Column,
   Head,
   Heading,
   Hr,
@@ -10,7 +8,6 @@ import {
   Img,
   Link,
   Preview,
-  Row,
   Section,
   Text
 } from '@react-email/components';
@@ -30,7 +27,6 @@ const baseUrl = process.env.VERCEL_URL
 export const ContactEmail = ({ name, email, message }: ContactEmailProps) => {
   const previewText = `Message from ${name} on Portfolio`;
 
-  // TODO: Make a custom design, instead of the template
   return (
     <Html>
       <Head />

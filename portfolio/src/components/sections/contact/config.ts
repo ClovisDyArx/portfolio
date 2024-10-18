@@ -7,14 +7,14 @@ import {
 } from '@icons-pack/react-simple-icons';
 
 const contact: Contact = {
-  email: 'john@example.com',
+  email: 'clovis.lechien@epita.fr',
   socials: [
     {
       name: 'Github',
-      href: 'https://github.com/',
+      href: 'https://github.com/ClovisDyArx',
       Icon: SiGithub
     },
-    {
+    /*{
       name: 'Youtube',
       href: 'https://youtube.com/',
       Icon: SiYoutube
@@ -23,10 +23,10 @@ const contact: Contact = {
       name: 'X',
       href: 'https://x.com/',
       Icon: SiX
-    },
+    },*/
     {
       name: 'Linkedin',
-      href: 'https://linkedin.com/',
+      href: 'https://www.linkedin.com/in/clovis-febvre-lechien/',
       Icon: SiLinkedin
     }
   ]
