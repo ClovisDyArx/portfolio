@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
-import { CodeIcon } from 'lucide-react';
+// import { CodeIcon } from 'lucide-react';
 import styles from './style.module.scss';
 import { opacity, background } from './anim';
 import Nav from './nav';
@@ -26,7 +26,7 @@ const Header = ({ loader }: HeaderProps) => {
         y: 0
       }}
       transition={{
-        delay: loader ? 3.5 : 0, // 3.5 for loading, .5 can be added for delay
+        delay: loader ? 1.5 : 0,
         duration: 0.8
       }}
     >
